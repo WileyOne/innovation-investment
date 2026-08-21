@@ -1,0 +1,64 @@
+name: "Submit a skill or agent"
+description: "Share a prompt, agent, workflow, script, or connector for the marketplace hub."
+title: "[Submission]: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Keep it short — enough context for someone else to understand and reuse what you built, not a full writeup. See `marketplace-hub/marketplace-plan.md` for how review works.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: One line — what is this?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What manual or repetitive task does this replace or speed up?
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: What it is
+      options:
+        - Agent
+        - Prompt
+        - Workflow
+        - Script
+        - Connector
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: dependencies
+    attributes:
+      label: Tools / platforms it depends on
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Rough sense of time saved, quality improved, or process it replaced. Estimates are fine — cite a source if you have one.
+  - type: textarea
+    id: reuse
+    attributes:
+      label: How to reuse it
+      description: Steps someone else would take to adapt this to their own task.
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Your name
+      description: So people can ask questions.
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category / tags
+      description: Function (reporting, triage, research, content generation, …) and team or business area.

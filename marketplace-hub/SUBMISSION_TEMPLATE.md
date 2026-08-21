@@ -1,6 +1,6 @@
 # Submission Template
 
-Copy this file into a new entry (e.g. `marketplace-hub/entries/your-entry-name.md`) and fill it in. Keep it short — the goal is enough context for someone else to understand and reuse what you built, not a full writeup.
+**The primary way to submit is now the "Submit a skill or agent" issue form** (New Issue → choose it from the list) — it walks through these same fields. This file exists as reference for what each field means and as a fallback if you'd rather submit as a plain markdown entry.
 
 ## Title
 
