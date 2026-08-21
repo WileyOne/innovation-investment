@@ -1,3 +1,4 @@
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/ea97aa55-4f82-43f0-b248-7ae385e608a2" />
 # Innovation Investment: Making It Real
 
 Working repo for the AI adoption push from the "Making it Real" deck: bi-weekly hands-on sessions, a shared space for skills and agents, and the AI Hackathon. Three folders, roughly matching the three things we're building.
