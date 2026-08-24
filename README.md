@@ -1,3 +1,6 @@
+
+![Innovation Investment — live infographic](infographic.png)
+
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/ea97aa55-4f82-43f0-b248-7ae385e608a2" />
 # Innovation Investment: Making It Real
 
